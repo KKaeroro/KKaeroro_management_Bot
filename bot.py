@@ -204,5 +204,5 @@ async def on_message(message):
         await client.send_message(message.channel, "초대링크를 관리자한테 요청하였습니다. 개인디코로 알려드립니다. 초대링크는 1시간 후 자동으로 삭제가 됩니다.")
 
 
-
-client.run('NjA2MTg3MzQ2Njg1MDY3Mjk0.XUwdCw.-xZa2P-PZS6AhSQhKyOPmWbLv8Q')
+access_token = os.environ["NjA2MTg3MzQ2Njg1MDY3Mjk0.XUwdCw.-xZa2P-PZS6AhSQhKyOPmWbLv8Q"]
+client.run(access_token)
